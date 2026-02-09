@@ -1,17 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webpack/SASS/ES6 or TS Bare Bones</title>
-</head>
-<body>
-    <h1>Welcome. This is a simple use of Webpack for SASS and ES6 or TS!</h1>
-    
-    <button id="js-button">Alerts the user!</button>
-    <button id="js-write-text-button">Write text to the p tag!</button>
-    <p></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dead-simple Webpack + SASS + ES6/TS</title>
+  </head>
+  <body>
+    <h1>Dead-simple Webpack + SASS + ES6/TS</h1>
+
+    <p>
+      This repo is intentionally tiny: one entry (.js/.ts) file, one SCSS file, one HTML
+      file.
+    </p>
+    <ul>
+      <li>Edit <code>src/index.js</code> or <code>src/index.ts</code></li>
+      <li>Edit <code>src/style.scss</code></li>
+    </ul>
+
+    <hr />
+    <br />
+    <button id="js-button">Show alert (imported class)</button>
+    <button id="js-write-text-button">
+      Write text below (imported function)
+    </button>
+
+    <p id="output">(Click “Write text below”)</p>
+
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>

@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "repository": "https://github.com/BBaysinger/dead-simple-js-sass-workflow.git",
   "author": "Bradley Baysinger",
@@ -15,6 +17,7 @@
   "devDependencies": {
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.2",
+    "prettier": "^3.6.2",
     "sass": "^1.77.0",
     "sass-loader": "^16.0.5",
     "source-map-loader": "^5.0.0",

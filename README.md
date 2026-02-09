@@ -33,7 +33,7 @@ What to edit:
 - src/index.js (your JS entry)
 - src/index.ts (optional TS entry — if this file exists, webpack will use it)
 - src/style.scss (your styles)
-- static/index.html (your HTML)
+- static/index.html (your HTML — demo writes into the <p id="output"> element)
 
 ## Build (writes to dist/)
 
@@ -77,12 +77,12 @@ To add more JS:
 
 You have two simple options:
 
-1) Add a .ts file and import it from JS:
+1. Add a .ts file and import it from JS:
 
 - Create src/something.ts
 - Import it from src/index.js
 
-2) Switch the whole entry to TypeScript (no config change needed):
+2. Switch the whole entry to TypeScript (no config change needed):
 
 - Create src/index.ts (webpack automatically prefers it)
 
