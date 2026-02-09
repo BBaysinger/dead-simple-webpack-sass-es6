@@ -1,7 +1,7 @@
 {
-  "name": "dead-simple-js-sass-workflow",
+  "name": "dead-simple-webpack-sass-es6",
   "version": "1.0.0",
-  "description": "Simplest use case JS/SASS workflow. Great for prototyping.",
+  "description": "Dead-simple Webpack starter for vanilla JS (ES6) or TypeScript + SASS. Great for prototyping.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
@@ -9,7 +9,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
-  "repository": "https://github.com/BBaysinger/dead-simple-js-sass-workflow.git",
+  "repository": "https://github.com/BBaysinger/dead-simple-webpack-sass-es6.git",
   "author": "Bradley Baysinger",
   "license": "MIT",
   "private": false,
