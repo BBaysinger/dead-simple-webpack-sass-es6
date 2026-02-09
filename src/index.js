@@ -5,7 +5,7 @@
  * In this file, I'm calling 2 different type of objects. One is a Es2015 Class type, and the
  * other one is a function defined using module.exports
  * 
- * Investigate more about how Es2015/ES6 classes work to see how to better use them. 
+ * Investigate more about how Es2015/ES6 (or TS) classes work to see how to better use them. 
  * 
  * Basically the magic happens in the bottom, where docum
  */

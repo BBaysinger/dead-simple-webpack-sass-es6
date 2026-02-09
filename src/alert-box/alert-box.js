@@ -1,7 +1,7 @@
 // Says Hello to the user when clicked!
 
 /**
- * This format uses the ES2015/ES6 class. 
+ * This format uses the ES2015/ES6 (or TS) class. 
  * 
  * You define an export before 'class' and you then import 
  * it by referencing the path of this file and then referring it
